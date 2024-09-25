@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&family=Tajawal&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/scss/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navbar-wrapper">
+          <a href="#" class="navbar-brand">
+            <img src="assets/images/logo.svg" alt="Tamal" />
+          </a>
+
+          <span class="collapse-navbar" data-Menu-Icon>
+            <i class="fas fa-bars"></i>
+          </span>
+
+          <ul class="navbar-item-wrapper" data-menu>
+            <div class="item-left-wrapper">
+              <li class="navbar-links active">
+                <a href="">Home</a>
+              </li>
+              <li class="navbar-links">
+                <a href=""
+                  >Jobs
+                  <span><i class="fas fa-chevron-down down-arrow"></i></span
+                ></a>
+              </li>
+              <li class="navbar-links">
+                <a href=""
+                  >Courses
+                  <span><i class="fas fa-chevron-down down-arrow"></i></span>
+                </a>
+              </li>
+              <li class="navbar-links">
+                <a href="">Career Tips</a>
+              </li>
+            </div>
+            <div class="item-left-wrapper">
+              <li class="navbar-links divider">
+                <a href="">Teamheed</a>
+              </li>
+
+              <li class="navbar-links">
+                <a href=""
+                  >For Seeker
+                  <span><i class="fas fa-chevron-down down-arrow"></i></span
+                ></a>
+              </li>
+              <li class="navbar-links">
+                <a href="" class="btn-dark">
+                  For Employers
+                  <span><i class="fas fa-chevron-down down-arrow"></i></span>
+                </a>
+              </li>
+
+              <li class="navbar-links">
+                <a href="">
+                  ENG
+                  <span><i class="fas fa-chevron-down down-arrow"></i></span>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </header>
+      <section id="main-hero">
+        <div class="container">
+          <div class="slogan-text">
+            <h1>Don’t search for jobs.<br />Find the right fit instead.</h1>
+            <p>Get offers from 10,000+ tech companies</p>
+          </div>
+        </div>
+      </section>
+      <section id="browse-job">
+        <div class="container pull-up">
+          <div class="find-job">
+            <div class="left">
+              <ul>
+                <li class="nav-item">
+                  <a class="nav-link active">Find a Job</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Find a Course</a>
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active">
+                  <form action="">
+                    <div class="search-wrapper">
+                      <span class="icon-search">
+                        <i class="fas fa-search"></i
+                      ></span>
+                      <input
+                        type="text"
+                        placeholder="Search by skill, company & job"
+                      />
+                      <button class="btn-orange">Search</button>
+                    </div>
+                    <a href="/">Advance Search</a>
+                  </form>
+                </div>
+                <!-- <div class="tab-pane">...</div> -->
+              </div>
+            </div>
+            <div class="right">
+              <div class="user-register-area">
+                <!-- <div>
+                  <img
+                    src="assets/images/upload-resume-home-vector.png"
+                    alt="upload-img"
+                  />
+                </div> -->
+
+                <h3>New To Ta3mal?</h3>
+
+                <button class="file btn-orange">Upload Resume</button>
+
+                <span class="or">OR</span>
+                <a href="https://ta3mal.com/main/en/seeker/register"
+                  >Register Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="section-heading">
+            <h3>Browse Jobs</h3>
+          </div>
+          <div class="browse-job-inner">
+            <div>
+              <div class="browse-job-discription">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Corporis magnam repudiandae magni exercitationem tempora, nam
+                  facilis. Nemo accusamus,
+                </p>
+              </div>
+              <div class="browse-job-filters">
+                <ul>
+                  <li>By City</li>
+                  <li>By District</li>
+                  <li>By Country</li>
+                  <li>By Continent</li>
+                  <li>By Continent</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img
+                src="assets/images/browse-img.png"
+                class="fluid-img"
+                alt="browse-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section id="top-hiring">
+        <div class="container">
+          <div class="section-heading">
+            <h3>Top 10 Hiring Companies</h3>
+          </div>
+          <div>
+            <div><span> <- </span> <span> -> </span></div>
+            <span>
+              <img src="assets/images/aster-logo.png" alt="aster-logo" />
+            </span>
+            <span>
+              <img src="assets/images/nmc-logo.png" alt="nmc-logo" />
+            </span>
+            <span>
+              <img
+                src="assets/images/the-sheffield-logo.png"
+                alt="the-sheffield-logo"
+              />
+            </span>
+            <span>
+              <img
+                src="assets/images/johnson-controls-logo.png"
+                alt="johnson-controls-logo"
+              />
+            </span>
+            <span>
+              <img src="assets/images/kooheji-logo.png" alt="kooheji-logo" />
+            </span>
+            <span>
+              <img
+                src="assets/images/the-saudi-investment-bank-logo.png"
+                alt="the-saudi-investment-bank-logo"
+              />
+            </span>
+          </div>
+          <p>
+            <a href="">View All Companies</a>
+          </p>
+        </div>
+      </section>
+      <section id="work-for-you">
+        <div class="container">
+          <div class="work-for-you-inner">
+            <div>
+              <p>How Ta3mal</p>
+              <h3>Works for you</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                natus exercitationem. Obcaecati illo, repellat at magnam nostrum
+                ex possimus nam natus provident officiis inventore rerum.
+                <a href="/">more</a>
+              </p>
+              <div class="member-count-wrap">
+                <img src="assets/images/profile-img.png" alt="profile-img" />
+                <div class="count">
+                  <h3>420,000</h3>
+                  <p>A member is working</p>
+                </div>
+              </div>
+            </div>
+            <div class="services">
+              <div class="service-block build-cv">
+                <img src="assets/images/bg-build-cv.png" alt="bg-build-cv" />
+                <span class="icon">
+                  <img
+                    src="assets/images/build-your-cv-icon.svg"
+                    alt="build-your-cv-icon"
+                /></span>
+                <p>Build Your CV</p>
+                <a href="/"></a>
+              </div>
+              <div class="service-block job-alert">
+                <span class="icon"
+                  ><img
+                    src="assets/images/job-alert-email-icon.svg"
+                    alt="job-alert"
+                /></span>
+                <p>Job Alert Email</p>
+                <a href="/"></a>
+              </div>
+              <div class="service-block personal-dashboard">
+                <span class="icon"
+                  ><img
+                    src="assets/images/personal-dasboard-icon.svg"
+                    alt="personal-dashboard"
+                /></span>
+                <p>Personal Dashboard</p>
+                <a href="/"></a>
+              </div>
+              <div class="service-block e-learning">
+                <span class="icon"
+                  ><img src="assets/images/e-learning.svg" alt="e-learning"
+                /></span>
+                <p>E-Learning</p>
+                <a href="/"></a>
+              </div>
+              <div class="service-block interview-prep">
+                <span class="icon"
+                  ><img
+                    src="assets/images/interview-prep-icon.svg"
+                    alt="interview-prep"
+                /></span>
+                <p>Interview Prep</p>
+                <a href="/"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="join-e-learning">
+        <div class="container">
+          <div class="section-heading">
+            <p>See how you can up your career status</p>
+            <h3>Join e-Learning</h3>
+          </div>
+          <div class="courses">
+            <div class="course-item">
+              <img
+                src="assets/images/course-thumbnail.png"
+                alt="course-thumbnail"
+              />
+              <div class="wish"><span>(0) Wishlist</span></div>
+              <div class="courses-details">
+                <h5>Lorem, ipsum dolor</h5>
+                <div class="metas">
+                  <p>business Skils</p>
+                  <p>17 Dec 2019</p>
+                  <p>239</p>
+                  <p>
+                    <sup>Powered By</sup
+                    ><img src="assets/images/alison.png" alt="" />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="course-item">
+              <img
+                src="assets/images/course-thumbnail-1.png"
+                alt="course-thumbnail"
+              />
+              <div class="wish"><span>(0) Wishlist</span></div>
+              <div class="courses-details">
+                <h5>Lorem, ipsum dolor</h5>
+                <div class="metas">
+                  <p>business Skils</p>
+                  <p>17 Dec 2019</p>
+                  <p>239</p>
+                  <p>
+                    <sup>Powered By</sup
+                    ><img src="assets/images/alison.png" alt="" />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="course-item">
+              <img
+                src="assets/images/course-thumbnail-2.png"
+                alt="course-thumbnail"
+              />
+              <div class="wish"><span>(0) Wishlist</span></div>
+              <div class="courses-details">
+                <h5>Lorem, ipsum dolor</h5>
+                <div class="metas">
+                  <p>business Skils</p>
+                  <p>17 Dec 2019</p>
+                  <p>239</p>
+                  <p>
+                    <sup>Powered By</sup
+                    ><img src="assets/images/alison.png" alt="" />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="course-item">
+              <img
+                src="assets/images/course-thumbnail-3.png"
+                alt="course-thumbnail"
+              />
+              <div class="wish"><span>(0) Wishlist</span></div>
+              <div class="courses-details">
+                <h5>Lorem, ipsum dolor</h5>
+                <div class="metas">
+                  <p>business Skils</p>
+                  <p>17 Dec 2019</p>
+                  <p>239</p>
+                  <p>
+                    <sup>Powered By</sup
+                    ><img src="assets/images/alison.png" alt="" />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>
+            <a href="">Browes All Courses</a>
+          </p>
+        </div>
+      </section>
+      <section id="feature-jobs">
+        <div class="container">
+          <div class="section-heading">
+            <h3>Feature Jobs</h3>
+          </div>
+          <div class="feature-job-listing">
+            <ul>
+              <li>
+                <div class="listing-item">
+                  <div class="job-company-logo">
+                    <img
+                      height="50px"
+                      src="assets/images/featured-job-logo1.png"
+                      alt="Company Name"
+                    />
+                  </div>
+                  <div class="job-title">
+                    <h4>Associate Solutions Engineer</h4>
+                  </div>
+                  <div class="job-tags">
+                    <ul>
+                      <li><span class="icon-business"></span>CISCO</li>
+                      <li><span class="icon-location"></span>Qatar</li>
+                      <li><span class="icon-job-type"></span>Full time</li>
+                    </ul>
+                  </div>
+
+                  <div class="job-apply-now">
+                    <p>Deadline: 2023-04-17</p>
+                    <button>Apply Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="listing-item">
+                  <div class="job-company-logo">
+                    <img
+                      height="50px"
+                      src="assets/images/featured-job-logo2.png"
+                      alt="Company Name"
+                    />
+                  </div>
+                  <div class="job-title">
+                    <h4>Associate Solutions Engineer</h4>
+                  </div>
+                  <div class="job-tags">
+                    <ul>
+                      <li><span class="icon-business"></span>CISCO</li>
+                      <li><span class="icon-location"></span>Qatar</li>
+                      <li><span class="icon-job-type"></span>Full time</li>
+                    </ul>
+                  </div>
+
+                  <div class="job-apply-now">
+                    <p>Deadline: 2023-04-17</p>
+                    <button>Apply Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="listing-item">
+                  <div class="job-company-logo">
+                    <img
+                      height="50px"
+                      src="assets/images/featured-job-logo3.png"
+                      alt="Company Name"
+                    />
+                  </div>
+                  <div class="job-title">
+                    <h4>Associate Solutions Engineer</h4>
+                  </div>
+                  <div class="job-tags">
+                    <ul>
+                      <li><span class="icon-business"></span>CISCO</li>
+                      <li><span class="icon-location"></span>Qatar</li>
+                      <li><span class="icon-job-type"></span>Full time</li>
+                    </ul>
+                  </div>
+
+                  <div class="job-apply-now">
+                    <p>Deadline: 2023-04-17</p>
+                    <button>Apply Now</button>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="listing-item">
+                  <div class="job-company-logo">
+                    <img
+                      height="50px"
+                      src="assets/images/featured-job-logo4.png"
+                      alt="Company Name"
+                    />
+                  </div>
+                  <div class="job-title">
+                    <h4>Associate Solutions Engineer</h4>
+                  </div>
+                  <div class="job-tags">
+                    <ul>
+                      <li><span class="icon-business"></span>CISCO</li>
+                      <li><span class="icon-location"></span>Qatar</li>
+                      <li><span class="icon-job-type"></span>Full time</li>
+                    </ul>
+                  </div>
+
+                  <div class="job-apply-now">
+                    <p>Deadline: 2023-04-17</p>
+                    <button>Apply Now</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="our-partners">
+        <div class="container">
+          <div class="section-heading">
+            <p>Valueable</p>
+            <h3>Our Partners</h3>
+          </div>
+          <div>
+            <div><span> <- </span> <span> -> </span></div>
+            <span>
+              <img
+                src="assets/images/agence-nationalee-logo.png"
+                alt="agence-nationalee-logo"
+              />
+            </span>
+            <span>
+              <img
+                src="assets/images/emploititic-logo.png"
+                alt="emploititic-logo"
+              />
+            </span>
+            <span>
+              <img src="assets/images/rwanga.png" alt="rwanga" />
+            </span>
+            <span>
+              <img src="assets/images/Bitmap.png" alt="Bitmap" />
+            </span>
+            <span>
+              <img
+                src="assets/images/amiideast-logo.png"
+                alt="amiideast-logo"
+              />
+            </span>
+            <span>
+              <img src="assets/images/efe-logo.png" alt="efe-logo" />
+            </span>
+          </div>
+          <div class="our-partner-banner">
+            <h2>Employers Your perfect hire awaits</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              repellendus fugit quos maxime accusantium non pariatur odit at.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="award-certifcations">
+        <div class="container">
+          <div class="section-heading">
+            <h3>Award & Certifcations</h3>
+          </div>
+          <div>
+            <span>
+              <img src="assets/images/iso-logo.png" alt="iso-logo" />
+            </span>
+            <span>
+              <img
+                src="assets/images/the-best-brand-logo.png"
+                alt="the-best-brand-logo"
+              />
+            </span>
+            <span>
+              <img
+                src="assets/images/elevation-award-logo.png"
+                alt="elevation-award-logo"
+              />
+            </span>
+          </div>
+        </div>
+      </section>
+      <section id="site-map">
+        <div class="container">
+          <div class="site-map-inner">
+            <div class="feed-section">
+              <img src="assets/images/facebook-footer-ad.png" alt="" />
+            </div>
+
+            <div>
+              <h5>By Industry</h5>
+              <ul>
+                <li>
+                  <a href="/">Information Technology (3)</a>
+                </li>
+                <li>
+                  <a href="/">Technology (1)</a>
+                </li>
+                <li>
+                  <a href="/">Education/ Training/ and Library (1)</a>
+                </li>
+                <li>
+                  <a href="/">Marketing (1)</a>
+                </li>
+                <li>
+                  <a href="/">Sales (1)</a>
+                </li>
+                <li>
+                  <a href="/">Non-profit Organization (1)</a>
+                </li>
+                <li>
+                  <a href="/">Engineering (1)</a>
+                </li>
+                <li>
+                  <a href="/">Safety (1)</a>
+                </li>
+                <li>
+                  <a href="/">Security &amp; Fire Systems (1)</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5>By Country</h5>
+              <ul>
+                <li>
+                  <a href="/">Iraq (91)</a>
+                </li>
+                <li>
+                  <a href="/">Tunisia (26)</a>
+                </li>
+                <li>
+                  <a href="/">Qatar (6)</a>
+                </li>
+                <li>
+                  <a href="/">Morocco (5)</a>
+                </li>
+                <li>
+                  <a href="/">Egypt (5)</a>
+                </li>
+                <li>
+                  <a href="/">Palestine (2)</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5>By Company</h5>
+              <ul>
+                <li>
+                  <a href="/">CISCO (2)</a>
+                </li>
+                <li>
+                  <a href="/">Ta3mal Qatar (1)</a>
+                </li>
+                <li>
+                  <a href="/">G4S (1)</a>
+                </li>
+                <li>
+                  <a href="/">The Fourth Assalam School (1)</a>
+                </li>
+                <li>
+                  <a href="/">Qatar Red Cresent (1)</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="footer">
+            <div>
+              <img src="assets/images/logo.svg" alt="Tamal" />
+              <p>
+                Ta3mal was launched by Silatech and Microsoft in 2012 and is the
+                region's first employablity platform that seeks to help youong
+                job seekers enter the job market.
+              </p>
+            </div>
+            <div>
+              <h5>Company</h5>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+              <h5>Stay Connected</h5>
+              <div class="social-icons">
+                <a target="_blank" href="/"
+                  ><span class="icon-facebook"></span
+                ></a>
+              </div>
+            </div>
+            <div>
+              <h5>Let’s stay in touch</h5>
+              <p>Subscribe for updates, special offers and more</p>
+              <div>
+                <input type="text" placeholder="Your Email Address" />
+                <div>
+                  <button class="btn">
+                    <span class="icon-righ-arrow">></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer> -->
+    </main>
+    <div class="bg-screen" data-bg-screen></div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+$base-font-size: 16px;
+
+@mixin font-size($size) {
+  font-size: ($size / $base-font-size) * 1rem;
+}
+@mixin rem($property, $px) {
+  #{$property}: ($px / $base-font-size) * 1rem;
+}
+
+$breakpoints: (
+  xs: 0px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1600px,
+  xxl: 2560px,
+);
+
+@mixin media($size) {
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}

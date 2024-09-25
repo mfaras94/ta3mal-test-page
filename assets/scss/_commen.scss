@@ -1,0 +1,62 @@
+.container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  @include media(lg) {
+    @include rem(margin-left, 100px);
+    @include rem(margin-right, 100px);
+  }
+}
+
+.bg-screen {
+  position: fixed;
+  content: "";
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.521);
+  top: 0;
+  right: -100vw;
+  transition: all 300ms;
+  &.active {
+    right: 0;
+  }
+}
+
+.btn-dark {
+  background-color: #000;
+  color: $white !important;
+  padding: 1rem;
+  font-weight: normal !important;
+
+  span {
+    .down-arrow {
+      color: $white !important;
+    }
+  }
+}
+
+.btn-orange {
+  background-color: $orange;
+  border-color: $orange;
+  padding: 0.55rem 1.75rem;
+  color: $white;
+}
+
+.pull-up {
+  margin-top: -5rem;
+}
+
+.section-heading {
+  @include font-size(28px);
+  color: $heading-color;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fluid-img {
+  width: 100%;
+}
